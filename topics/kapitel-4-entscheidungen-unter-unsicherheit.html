@@ -1,0 +1,380 @@
+<!-- MODULE_CHAPTER_START: kapitel-4 | Kapitel 4 · Entscheidungen unter Unsicherheit | slides=28 -->
+<!-- Dieses Topic ist ein HTML-Fragment: keine <html>, <head>, <body> Tags einfügen. -->
+
+<section class="slide-title module-slide chapter-start" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-start="true" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="01 Title" data-slide-index="1" data-slide-label="01 Title" data-slide-total="28" id="kapitel-4-slide-01">
+<div class="chrome-top"><span>HBW · Behavioral Finance</span><span>V26-04-13 <span class="dot">●</span></span></div>
+<div class="big-mark">§4</div>
+<div class="stack">
+<div class="eyebrow">Lernzusammenfassung · Kapitel 4</div>
+<h1 class="display" style="margin-top:24px;">Entscheidungen<br/>unter<br/><em style="font-style:italic; color:var(--accent);">Unsicherheit.</em></h1>
+<p class="sub" style="margin-top:32px; max-width:1180px;">Erwartungsstrukturen, Ergebnismatrix, Entscheidungsregeln unter Ungewissheit, Entscheidungen unter Risiko, Erwartungswert, Streuung, Bayes-Regel, μ-σ-Regel und Erwartungsnutzen.</p>
+</div>
+<div class="meta">
+<div class="block"><div class="k">Kurs</div><div class="v">Behavioral Finance</div></div>
+<div class="block"><div class="k">Kapitel</div><div class="v">4 · Entscheidungen unter Unsicherheit</div></div>
+<div class="block"><div class="k">Umfang</div><div class="v">Folien 131–164 · 28 Folien</div></div>
+<div class="block"><div class="k">Kernlogik</div><div class="v">Ungewissheit vs. Risiko</div></div>
+</div>
+<div class="chrome-bot"><span>Lernzusammenfassung</span><span>Hochschule · Stand April 2026</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="02 Kapitel 4 in der Behavioral-Finance-Agenda." data-slide-index="2" data-slide-label="02 Kapitel 4 in der Behavioral-Finance-Agenda." data-slide-total="28" id="kapitel-4-slide-02">
+<div class="chrome-top"><span>Modulkontext</span><span>02</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Modulkontext</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Kapitel 4 in der Behavioral-Finance-Agenda.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<p class="body-lg">Das Kapitel „Entscheidungen unter Unsicherheit“ schließt an die Kapitel zu System 1 / System 2 sowie Heuristiken und kognitiven Verzerrungen an. Es führt formale Entscheidungsstrukturen ein: Welche Zustände sind möglich, welche Alternativen gibt es, welche Konsequenzen entstehen und nach welcher Regel wird ausgewählt?</p>
+      <div class="three-col mt-40">
+        <div class="card"><div class="display accent-ink">01</div><div class="card-eyebrow">Erwartungsstruktur</div><div class="card-title">Sicherheit, Ungewissheit, Risiko.</div><p class="card-body">Unterscheidung nach Informationsstand über Konsequenzen und Eintrittswahrscheinlichkeiten.</p></div>
+        <div class="card"><div class="display accent-ink">02</div><div class="card-eyebrow">Modellierung</div><div class="card-title">Entscheidung, Zustand, Alternative, Ergebnis.</div><p class="card-body">Entscheidungssituationen werden über Zustandsraum, Handlungsalternativen und Ergebnismatrix dargestellt.</p></div>
+        <div class="card"><div class="display accent-ink">03</div><div class="card-eyebrow">Ungewissheit</div><div class="card-title">Maximax, Maximin, Hurwicz, Laplace, Krelle, Savage-Niehans.</div><p class="card-body">Regeln für Entscheidungen ohne bekannte Wahrscheinlichkeiten.</p></div>
+        <div class="card"><div class="display accent-ink">04</div><div class="card-eyebrow">Risiko</div><div class="card-title">Erwartungswert, Streuung, Nutzen.</div><p class="card-body">Wahrscheinlichkeiten erlauben stochastische Modelle, Bayes-Regel und Erwartungsnutzen.</p></div>
+      </div>
+      <div class="label" style="margin-top:22px;">Quelle im Skript: Folien 131–132.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>02 / 28</span></div>
+</section>
+
+<section class="slide-divider module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="03 Mögliche Erwartungsstrukturen." data-slide-index="3" data-slide-label="03 Mögliche Erwartungsstrukturen." data-slide-total="28" id="kapitel-4-slide-03">
+<div class="chrome-top"><span>Teil 01</span><span>03 <span class="dot">●</span></span></div>
+<div class="big-num">01</div>
+<div class="sub-label">Kapitel 4 · Abschnitt</div>
+<div class="big-title">Mögliche Erwartungsstrukturen.</div>
+<p class="sub" style="position:absolute; left:96px; right:220px; bottom:260px; color:rgba(244,239,230,0.74);">Das Skript unterscheidet Sicherheit, Unsicherheit, Ungewissheit und Risiko im engeren Sinn. Entscheidend ist, was über künftige Umweltzustände, Konsequenzen und Eintrittswahrscheinlichkeiten bekannt ist.</p>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>03 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="04 Sicherheit steht Unsicherheit gegenüber Unsicherheit teilt sich in Ungewissheit " data-slide-index="4" data-slide-label="04 Sicherheit steht Unsicherheit gegenüber Unsicherheit teilt sich in Ungewissheit " data-slide-total="28" id="kapitel-4-slide-04">
+<div class="chrome-top"><span>Grundstruktur</span><span>04</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Grundstruktur</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Sicherheit steht Unsicherheit gegenüber; Unsicherheit teilt sich in Ungewissheit und Risiko i.e.S.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<div class="three-col mt-40">
+        <div class="card"><div class="card-eyebrow">Sicherheit</div><div class="card-title">Ein Zustand ist bekannt.</div><p class="card-body">Sicherheit liegt vor, wenn der Eintritt eines bestimmten Zustandes bekannt ist.</p></div>
+        <div class="card"><div class="card-eyebrow">Ungewissheit</div><div class="card-title">Zustände bekannt, Wahrscheinlichkeiten unbekannt.</div><p class="card-body">Der Entscheider kennt nur die Zahl der möglichen Umweltzustände, aber nicht deren Eintrittswahrscheinlichkeiten.</p></div>
+        <div class="card"><div class="card-eyebrow">Risiko i.e.S.</div><div class="card-title">Zustände und Wahrscheinlichkeiten bekannt.</div><p class="card-body">Neben allen möglichen Umweltzuständen liegen objektive oder subjektive Wahrscheinlichkeiten vor.</p></div>
+      </div>
+      <div class="callout mt-40"><span class="tag">Unsicherheit / Risiko i.w.S.</span>Unsicherheit bedeutet mehrwertige Erwartungen über die Umweltzustände. Das Risiko einer Entscheidung beruht auf zwei Komponenten: der Unsicherheit über die künftige Entwicklung der Konsequenzen und der Inflexibilität von Entscheidungen.</div>
+      <div class="callout mt-24"><span class="tag">Folge bei Ungewissheit</span>Bei Ungewissheit wird rationale Entscheidung im engeren Sinn unmöglich; das Skript verweist hier auf den Einsatz von Heuristiken.</div>
+      <div class="callout mt-24"><span class="tag">Folge bei Risiko i.e.S.</span>Liegen Wahrscheinlichkeiten vor, können stochastische Modelle und Entscheidungstheorie eingesetzt werden.</div>
+      <div class="label" style="margin-top:22px;">Quelle im Skript: Folien 133–134.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>04 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="05 Vollkommene und unvollkommene Information." data-slide-index="5" data-slide-label="05 Vollkommene und unvollkommene Information." data-slide-total="28" id="kapitel-4-slide-05">
+<div class="chrome-top"><span>Informationsbezug</span><span>05</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Informationsbezug</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Vollkommene und unvollkommene Information.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<table class="grid-tbl"><thead><tr><th>Informationslage</th><th>Entscheidungsart</th><th>Konsequenzen</th><th>Eintrittswahrscheinlichkeiten</th></tr></thead><tbody>
+        <tr><td class="k">Vollkommene Information</td><td>Entscheidungen bei sicheren Erwartungen</td><td>Konsequenzen des Handelns vollständig bekannt.</td><td>Nicht problematisch, da sicherer Zustand.</td></tr>
+        <tr><td class="k">Unvollkommene Information</td><td>Entscheidungen unter Risiko</td><td>Konsequenzen sind unbestimmt.</td><td>Eintrittswahrscheinlichkeiten bekannt.</td></tr>
+        <tr><td class="k">Unvollkommene Information</td><td>Entscheidungen bei unsicheren Erwartungen</td><td>Konsequenzen sind unbestimmt.</td><td>Eintrittswahrscheinlichkeiten unbekannt.</td></tr>
+      </tbody></table>
+      <div class="two-col mt-40"><div class="formula-box">Zustandsraum einer unsicheren Welt:<br>Z = (z₁, z₂, …, zₙ)</div><div class="callout"><span class="tag">Unterscheidung</span>Ungewissheit = nur Kenntnis der möglichen Zustände. Risiko = Kenntnis der möglichen Zustände und ihrer Eintrittswahrscheinlichkeiten. Sicherheit = Eintritt eines bestimmten Zustandes bekannt.</div></div>
+      <div class="label" style="margin-top:22px;">Quelle im Skript: Folien 135–136.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>05 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="06 Von routiniert bis konstruktiv." data-slide-index="6" data-slide-label="06 Von routiniert bis konstruktiv." data-slide-total="28" id="kapitel-4-slide-06">
+<div class="chrome-top"><span>Entscheidungsprozesse</span><span>06</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Entscheidungsprozesse</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Von routiniert bis konstruktiv.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<table class="grid-tbl"><thead><tr><th>Ebene</th><th>Routiniert</th><th>Stereotyp</th><th>Reflektiert</th><th>Konstruktiv</th></tr></thead><tbody>
+        <tr><td class="k">Beispiel</td><td>Autofahren</td><td>Fließbandarbeit</td><td>Prüfung</td><td>Verfassen eines Artikels</td></tr>
+        <tr><td class="k">Bewusstsein</td><td>Nein</td><td>Gering</td><td>Hoch</td><td>Hoch</td></tr>
+        <tr><td class="k">Aufmerksamkeit</td><td>Sehr gering</td><td>Gering</td><td>Hoch</td><td>Sehr hoch</td></tr>
+        <tr><td class="k">Neue Informationen</td><td>Nein</td><td>Nein</td><td>Ja</td><td>Ja</td></tr>
+        <tr><td class="k">Zeitdauer</td><td>Schnell</td><td>Schnell</td><td>Schnell–lange</td><td>Schnell–lange</td></tr>
+        <tr><td class="k">Vorstrukturiertheit</td><td>Sehr hoch</td><td>Hoch</td><td>Hoch–mittel</td><td>Gering</td></tr>
+      </tbody></table>
+      <div class="label" style="margin-top:22px;">Quelle im Skript: Folie 137.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>06 / 28</span></div>
+</section>
+
+<section class="slide-divider module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="07 Modellierung von Entscheidungen." data-slide-index="7" data-slide-label="07 Modellierung von Entscheidungen." data-slide-total="28" id="kapitel-4-slide-07">
+<div class="chrome-top"><span>Teil 02</span><span>07 <span class="dot">●</span></span></div>
+<div class="big-num">02</div>
+<div class="sub-label">Kapitel 4 · Abschnitt</div>
+<div class="big-title">Modellierung von Entscheidungen.</div>
+<p class="sub" style="position:absolute; left:96px; right:220px; bottom:260px; color:rgba(244,239,230,0.74);">Eine Entscheidung entsteht aus Handlungsalternativen, Informationen über den Zustandsraum und Entscheidungsregeln. Das Ergebnis ist die Konsequenz der gewählten Alternative beim eintretenden Zustand.</p>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>07 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="08 Alternative, Zustand, Regel, Ergebnis." data-slide-index="8" data-slide-label="08 Alternative, Zustand, Regel, Ergebnis." data-slide-total="28" id="kapitel-4-slide-08">
+<div class="chrome-top"><span>Entscheidungsmodell</span><span>08</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Entscheidungsmodell</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Alternative, Zustand, Regel, Ergebnis.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<div class="three-col mt-40"><div class="card">Handlungsalternativen</div><div class="card">Informationen für den Zustandsraum</div><div class="card">Entscheidungsregeln<br><span  style="font-family:var(--sans);font-size:1rem;">Kriterien</span></div><div >führen zu</div><div class="card">Entscheidung</div><div >führt zu</div><div></div><div class="card">Ergebnis<br><span style="font-family:var(--sans);font-size:1rem;color:var(--muted);">Konsequenz</span></div><div></div></div>
+      <div class="callout mt-40"><span class="tag">Rückkopplung</span>Die Abbildung zeigt auch eine Rückbeziehung vom Ergebnis zu den Informationen für den Zustandsraum: Konsequenzen können die Informationsbasis zukünftiger Entscheidungen prägen.</div>
+      <div class="label" style="margin-top:22px;">Quelle im Skript: Folie 138.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>08 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="09 Entscheidungssituationen tabellarisch darstellen." data-slide-index="9" data-slide-label="09 Entscheidungssituationen tabellarisch darstellen." data-slide-total="28" id="kapitel-4-slide-09">
+<div class="chrome-top"><span>Ergebnismatrix</span><span>09</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Ergebnismatrix</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Entscheidungssituationen tabellarisch darstellen.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<table class="grid-tbl"><thead><tr><th>Handlungsalternative a</th><th>Zustand 1</th><th>Zustand 2</th><th>Zustand 3</th><th>Zustand 4</th></tr></thead><tbody>
+        <tr><td class="k">Alternative 1</td><td>x₁₁</td><td>x₁₂</td><td>x₁₃</td><td>x₁₄</td></tr><tr><td class="k">Alternative 2</td><td>x₂₁</td><td>x₂₂</td><td>x₂₃</td><td>x₂₄</td></tr><tr><td class="k">Alternative 3</td><td>x₃₁</td><td>x₃₂</td><td>x₃₃</td><td>x₃₄</td></tr><tr><td class="k">Alternative 4</td><td>x₄₁</td><td>x₄₂</td><td>x₄₃</td><td>x₄₄</td></tr><tr><td class="k">Alternative 5</td><td>x₅₁</td><td>x₅₂</td><td>x₅₃</td><td>x₅₄</td></tr><tr><td class="k">Alternative 6</td><td>x₆₁</td><td>x₆₂</td><td>x₆₃</td><td>x₆₄</td></tr>
+      </tbody></table>
+      <div class="formula-box mt-40">xᵢⱼ = Ergebnis / Konsequenz der Handlungsalternative aᵢ bei Eintreten des Zustands zⱼ</div>
+      <div class="label" style="margin-top:22px;">Quelle im Skript: Folie 139.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>09 / 28</span></div>
+</section>
+
+<section class="slide-divider module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="10 Entscheidungsregeln unter Ungewissheit." data-slide-index="10" data-slide-label="10 Entscheidungsregeln unter Ungewissheit." data-slide-total="28" id="kapitel-4-slide-10">
+<div class="chrome-top"><span>Teil 03</span><span>10 <span class="dot">●</span></span></div>
+<div class="big-num">03</div>
+<div class="sub-label">Kapitel 4 · Abschnitt</div>
+<div class="big-title">Entscheidungsregeln unter Ungewissheit.</div>
+<p class="sub" style="position:absolute; left:96px; right:220px; bottom:260px; color:rgba(244,239,230,0.74);">Unter Ungewissheit sind keine Eintrittswahrscheinlichkeiten bekannt. Verschiedene Entscheidungsregeln bilden unterschiedliche Grundhaltungen ab: Optimismus, Pessimismus, Kompromiss, Gleichgewichtung, Präferenztransformation oder Reuevermeidung.</p>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>10 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="11 Welche Alternative ist nach welcher Regel auszuwählen" data-slide-index="11" data-slide-label="11 Welche Alternative ist nach welcher Regel auszuwählen" data-slide-total="28" id="kapitel-4-slide-11">
+<div class="chrome-top"><span>Ausgangsmatrix</span><span>11</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Ausgangsmatrix</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Welche Alternative ist nach welcher Regel auszuwählen?</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<table class="grid-tbl"><thead><tr><th>Alternative</th><th>Zustand 1</th><th>Zustand 2</th><th>Zustand 3</th><th>Zustand 4</th></tr></thead><tbody>
+        <tr><td class="k">Alternative 1</td><td>5</td><td>7</td><td>20</td><td>13</td></tr><tr><td class="k">Alternative 2</td><td>9</td><td>1</td><td>21</td><td>16</td></tr><tr><td class="k">Alternative 3</td><td>10</td><td>7</td><td>11</td><td>5</td></tr><tr><td class="k">Alternative 4</td><td>3</td><td>9</td><td>18</td><td>4</td></tr><tr><td class="k">Alternative 5</td><td>6</td><td>7</td><td>12</td><td>15</td></tr><tr><td class="k">Alternative 6</td><td>11</td><td>2</td><td>8</td><td>17</td></tr>
+      </tbody></table><div class="label" style="margin-top:22px;">Quelle im Skript: Folie 140.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>11 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="12 Maximax, Maximin und Hurwicz." data-slide-index="12" data-slide-label="12 Maximax, Maximin und Hurwicz." data-slide-total="28" id="kapitel-4-slide-12">
+<div class="chrome-top"><span>Regeln 1–3</span><span>12</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Regeln 1–3</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Maximax, Maximin und Hurwicz.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<div class="three-col mt-40">
+        <div class="card"><div class="card-eyebrow">Maximax-Regel</div><div class="card-title">Extrem optimistische Grundeinstellung.</div><p class="card-body">Wahl der Alternative, bei der das bestmögliche Ergebnis am höchsten ist.</p><table class="grid-tbl"><tbody><tr><td class="k">A1</td><td>20</td></tr><tr><td class="k">A2</td><td><strong>21</strong></td></tr><tr><td class="k">A3</td><td>11</td></tr><tr><td class="k">A4</td><td>18</td></tr><tr><td class="k">A5</td><td>15</td></tr><tr><td class="k">A6</td><td>17</td></tr></tbody></table><div class="callout mt-24"><span class="tag">Auswahl</span>Alternative 2.</div></div>
+        <div class="card"><div class="card-eyebrow">Maximin-Regel</div><div class="card-title">Extrem pessimistische Grundeinstellung.</div><p class="card-body">Auch MiniMax- oder Wald-Regel. Wahl der Alternative, bei der das schlechtestmögliche Ergebnis am höchsten ist.</p><table class="grid-tbl"><tbody><tr><td class="k">A1</td><td>5</td></tr><tr><td class="k">A2</td><td>1</td></tr><tr><td class="k">A3</td><td>5</td></tr><tr><td class="k">A4</td><td>3</td></tr><tr><td class="k">A5</td><td><strong>6</strong></td></tr><tr><td class="k">A6</td><td>2</td></tr></tbody></table><div class="callout mt-24"><span class="tag">Auswahl</span>Alternative 5.</div></div>
+        <div class="card"><div class="card-eyebrow">Hurwicz-Kriterium</div><div class="card-title">Kompromiss zwischen Maximax und Maximin.</div><p class="card-body">Höchste gewichtete Summe aus bestem und schlechtestem Ergebnis. Im Beispiel: bestes Ergebnis mit 0,3, schlechtestes mit 0,7.</p><table class="grid-tbl"><tbody><tr><td class="k">A1</td><td><strong>9,5</strong></td></tr><tr><td class="k">A2</td><td>7,0</td></tr><tr><td class="k">A3</td><td>6,8</td></tr><tr><td class="k">A4</td><td>7,5</td></tr><tr><td class="k">A5</td><td>8,7</td></tr><tr><td class="k">A6</td><td>6,5</td></tr></tbody></table><div class="callout mt-24"><span class="tag">Auswahl</span>Alternative 1.</div></div>
+      </div><div class="label" style="margin-top:22px;">Quelle im Skript: Folien 141–143.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>12 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="13 Laplace, Krelle und Savage-Niehans." data-slide-index="13" data-slide-label="13 Laplace, Krelle und Savage-Niehans." data-slide-total="28" id="kapitel-4-slide-13">
+<div class="chrome-top"><span>Regeln 4–6</span><span>13</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Regeln 4–6</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Laplace, Krelle und Savage-Niehans.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<div class="three-col mt-40">
+        <div class="card"><div class="card-eyebrow">Laplace-Regel</div><div class="card-title">Gleichgewichtung aller Zustände.</div><p class="card-body">Wahl der Alternative mit dem höchsten durchschnittlichen Ergebnis. Alle Ereignisse werden mit 1/Z gleich gewichtet.</p><table class="grid-tbl"><tbody><tr><td class="k">A1</td><td>11,25</td></tr><tr><td class="k">A2</td><td><strong>11,75</strong></td></tr><tr><td class="k">A3</td><td>8,25</td></tr><tr><td class="k">A4</td><td>8,50</td></tr><tr><td class="k">A5</td><td>10,00</td></tr><tr><td class="k">A6</td><td>9,50</td></tr></tbody></table><div class="callout mt-24"><span class="tag">Auswahl</span>Alternative 2.</div></div>
+        <div class="card"><div class="card-eyebrow">Krelle-Regel</div><div class="card-title">Transformation der Ergebnisse.</div><p class="card-body">Wahl der Alternative, bei der die Summe der transformierten Ergebnisse am höchsten ist. Transformation mit Unsicherheitspräferenzfunktion, im Beispiel Wurzelfunktion.</p><table class="grid-tbl"><tbody><tr><td class="k">A1</td><td><strong>12,96</strong></td></tr><tr><td class="k">A2</td><td>12,58</td></tr><tr><td class="k">A3</td><td>11,36</td></tr><tr><td class="k">A4</td><td>10,97</td></tr><tr><td class="k">A5</td><td>12,43</td></tr><tr><td class="k">A6</td><td>11,68</td></tr></tbody></table><div class="callout mt-24"><span class="tag">Auswahl</span>Alternative 1.</div></div>
+        <div class="card"><div class="card-eyebrow">Savage-Niehans-Regel</div><div class="card-title">Maximalen Schaden minimieren.</div><p class="card-body">Wahl der Alternative, bei der der maximale Schaden am geringsten ist. Schaden = Abstand zum bestmöglichen Ergebnis bei einem Zustand.</p><table class="grid-tbl"><tbody><tr><td class="k">A1</td><td><strong>−6</strong></td></tr><tr><td class="k">A2</td><td>−8</td></tr><tr><td class="k">A3</td><td>−12</td></tr><tr><td class="k">A4</td><td>−13</td></tr><tr><td class="k">A5</td><td>−9</td></tr><tr><td class="k">A6</td><td>−13</td></tr></tbody></table><div class="callout mt-24"><span class="tag">Auswahl</span>Alternative 1.</div></div>
+      </div><div class="callout mt-40"><span class="tag">Einordnung</span>Die Laplace-Regel überführt Unsicherheit in eine Risikosituation, indem sie alle möglichen Ereignisse gleich wahrscheinlich setzt.</div><div class="label" style="margin-top:22px;">Quelle im Skript: Folien 144–146.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>13 / 28</span></div>
+</section>
+
+<section class="slide-divider module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="14 Entscheidung unter Risiko." data-slide-index="14" data-slide-label="14 Entscheidung unter Risiko." data-slide-total="28" id="kapitel-4-slide-14">
+<div class="chrome-top"><span>Teil 04</span><span>14 <span class="dot">●</span></span></div>
+<div class="big-num">04</div>
+<div class="sub-label">Kapitel 4 · Abschnitt</div>
+<div class="big-title">Entscheidung unter Risiko.</div>
+<p class="sub" style="position:absolute; left:96px; right:220px; bottom:260px; color:rgba(244,239,230,0.74);">Unter Risiko werden Eintrittswahrscheinlichkeiten für Umweltzustände angegeben. Diese können objektiv oder subjektiv sein. Dadurch werden Erwartungswert, Streuung und Nutzenmodelle anwendbar.</p>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>14 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="15 Wahrscheinlichkeiten machen die Entscheidung stochastisch modellierbar." data-slide-index="15" data-slide-label="15 Wahrscheinlichkeiten machen die Entscheidung stochastisch modellierbar." data-slide-total="28" id="kapitel-4-slide-15">
+<div class="chrome-top"><span>Einführung Risiko</span><span>15</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Einführung Risiko</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Wahrscheinlichkeiten machen die Entscheidung stochastisch modellierbar.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<table class="grid-tbl"><thead><tr><th>Alternative</th><th>Zustand 1<br>p₁ = 30 %</th><th>Zustand 2<br>p₂ = 50 %</th><th>Zustand 3<br>p₃ = 20 %</th></tr></thead><tbody><tr><td class="k">Alternative 1</td><td>10</td><td>12</td><td>22</td></tr><tr><td class="k">Alternative 2</td><td>8</td><td>14</td><td>18</td></tr></tbody></table>
+      <div class="two-col mt-40"><div class="callout"><span class="tag">Wahrscheinlichkeiten</span>Es werden Eintrittswahrscheinlichkeiten für Umweltzustände angegeben.</div><div class="callout"><span class="tag">Objektiv oder subjektiv</span>Diese Wahrscheinlichkeiten können objektiv oder subjektiv sein.</div></div><div class="label" style="margin-top:22px;">Quelle im Skript: Folie 147.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>15 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="16 Erwartungswert und Standardabweichung." data-slide-index="16" data-slide-label="16 Erwartungswert und Standardabweichung." data-slide-total="28" id="kapitel-4-slide-16">
+<div class="chrome-top"><span>Statistik-Wiederholung</span><span>16</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Statistik-Wiederholung</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Erwartungswert und Standardabweichung.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<div class="two-col mt-40"><div class="card"><div class="card-eyebrow">Erwartungswert</div><div class="card-title">Repräsentativer Mittelwert möglicher Renditen.</div><ul class="clean"><li><span class="marker">01</span><span>Der Erwartungswert ist die Summe der mit Wahrscheinlichkeiten gewichteten Renditen.</span></li><li><span class="marker">02</span><span>Er bringt Höhe der Renditen und Eintrittswahrscheinlichkeiten zum Ausdruck.</span></li><li><span class="marker">03</span><span>Er macht keine Aussage über die mögliche Streuung.</span></li></ul><div class="formula-box mt-24">E(R) = μ = Σ rᵢ · pᵢ</div></div>
+      <div class="card"><div class="card-eyebrow">Standardabweichung</div><div class="card-title">Risikomesszahl für Streuung.</div><ul class="clean"><li><span class="marker">01</span><span>Risiko messen heißt, die Streuung bzw. Dispersion möglicher Renditen um den Erwartungswert zu bestimmen.</span></li><li><span class="marker">02</span><span>Die gesamte Wahrscheinlichkeitsverteilung wird zu einem Wert verdichtet.</span></li><li><span class="marker">03</span><span>Als Maßstab dient die Standardabweichung.</span></li></ul><div class="formula-box mt-24">σ = √( Σ (rᵢ − μ)² · pᵢ )</div></div></div><div class="label" style="margin-top:22px;">Quelle im Skript: Folien 148–149.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>16 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="17 Wähle die Alternative mit dem höchsten Erwartungswert." data-slide-index="17" data-slide-label="17 Wähle die Alternative mit dem höchsten Erwartungswert." data-slide-total="28" id="kapitel-4-slide-17">
+<div class="chrome-top"><span>Bayes-Regel / μ-Prinzip</span><span>17</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Bayes-Regel / μ-Prinzip</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Wähle die Alternative mit dem höchsten Erwartungswert.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<div class="two-col mt-40"><div><ul class="clean"><li><span class="marker">01</span><span>Man gewichtet das beim Umweltzustand j eintretende Ergebnis zᵢⱼ mit pⱼ.</span></li><li><span class="marker">02</span><span>Die Produkte werden addiert.</span></li><li><span class="marker">03</span><span>So wird μ = E(aᵢ) ermittelt.</span></li><li><span class="marker">04</span><span>Entscheidungsregel: Alternative mit höchstem Erwartungswert wählen.</span></li></ul><div class="formula-box mt-24">μ = E(aᵢ) = Σ zᵢⱼ · pⱼ</div></div><div><table class="grid-tbl"><thead><tr><th>Alternative</th><th>Berechnung</th><th>μ</th></tr></thead><tbody><tr><td class="k">Alternative 1</td><td>0,3 · 10 + 0,5 · 12 + 0,2 · 22</td><td><strong>13,4</strong></td></tr><tr><td class="k">Alternative 2</td><td>0,3 · 8 + 0,5 · 14 + 0,2 · 18</td><td>13,0</td></tr></tbody></table><div class="callout mt-24"><span class="tag">Auswahl</span>Nach Bayes-Regel wird Alternative 1 gewählt.</div></div></div><div class="label" style="margin-top:22px;">Quelle im Skript: Folie 150.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>17 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="18 Erwartungswert allein reicht nur für Risikoneutralität." data-slide-index="18" data-slide-label="18 Erwartungswert allein reicht nur für Risikoneutralität." data-slide-total="28" id="kapitel-4-slide-18">
+<div class="chrome-top"><span>Kritik und Erweiterung</span><span>18</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Kritik und Erweiterung</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Erwartungswert allein reicht nur für Risikoneutralität.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<div class="two-col mt-40"><div class="card"><div class="card-eyebrow">Kritik an der Bayes-Regel</div><div class="card-title">Einfach, aber streuungsblind.</div><ul class="clean"><li><span class="marker">01</span><span>Vorteil: Einfachheit.</span></li><li><span class="marker">02</span><span>Gute Ergebnisse bei häufigen Entscheidungen, da sich nach dem Gesetz der großen Zahl Ergebnisse dem Erwartungswert annähern.</span></li><li><span class="marker">03</span><span>Nur passend für risikoneutrale Entscheider, da die Streuung nicht berücksichtigt wird.</span></li></ul></div><div class="card"><div class="card-eyebrow">μ-σ-Regel</div><div class="card-title">Erwartungswert plus Streuung.</div><ul class="clean"><li><span class="marker">→</span><span>Erweiterung des Erwartungswertes um die Streuung.</span></li><li><span class="marker">→</span><span>Der Entscheider drückt seine Risikopräferenz über den Einbezug von σ aus.</span></li><li><span class="marker">→</span><span>Negative Bewertung der Streuung = risikoscheu; positive Bewertung = risikofreudig.</span></li><li><span class="marker">→</span><span>Je größer Varianz oder Standardabweichung, desto höher das Risiko.</span></li></ul></div></div>
+      <div class="callout mt-40"><span class="tag">Im Skript unklar</span>Die konkrete Beispiel-Formel zur Präferenzfunktion auf Folie 152 ist in der PDF-Textextraktion nicht zuverlässig lesbar. Inhaltlich eindeutig ist: Erwartungswert μ und Streuung σ werden gemeinsam betrachtet.</div>
+      <div class="callout mt-24"><span class="tag">Klausurregel</span>Bei gleichem Erwartungswert sind bei Risikoaversion Investitionsalternativen mit niedriger Standardabweichung vorteilhafter.</div><div class="label" style="margin-top:22px;">Quelle im Skript: Folien 151–152.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>18 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="19 Effiziente Kombinationen aus Erwartungswert und Varianz." data-slide-index="19" data-slide-label="19 Effiziente Kombinationen aus Erwartungswert und Varianz." data-slide-total="28" id="kapitel-4-slide-19">
+<div class="chrome-top"><span>Markowitz-Effizienz</span><span>19</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Markowitz-Effizienz</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Effiziente Kombinationen aus Erwartungswert und Varianz.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<p class="body-lg">Das Skript nennt drei Fälle, in denen effiziente Kombinationen von Erwartungswert und Varianz in einem Portfolio vorliegen.</p>
+      <div class="three-col mt-40"><div class="card"><div class="card-eyebrow">Fall 01</div><div class="card-title">Gleicher Erwartungswert, geringeres Risiko.</div><p class="card-body">Es gibt kein anderes Portfolio, das bei gleichem Erwartungswert ein geringeres Risiko besitzt.</p></div><div class="card"><div class="card-eyebrow">Fall 02</div><div class="card-title">Gleiches Risiko, höhere Rendite.</div><p class="card-body">Es gibt kein anderes Portfolio, das bei gleichem Risiko einen höheren Erwartungswert besitzt.</p></div><div class="card"><div class="card-eyebrow">Fall 03</div><div class="card-title">Mehr Rendite und weniger Risiko.</div><p class="card-body">Es gibt kein anderes Portfolio, das gleichzeitig höheren Erwartungswert und geringeres Risiko besitzt.</p></div></div><div class="label" style="margin-top:22px;">Quelle im Skript: Folie 153.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>19 / 28</span></div>
+</section>
+
+<section class="slide-divider module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="20 Bernoulli-Prinzip und Risikonutzen." data-slide-index="20" data-slide-label="20 Bernoulli-Prinzip und Risikonutzen." data-slide-total="28" id="kapitel-4-slide-20">
+<div class="chrome-top"><span>Teil 05</span><span>20 <span class="dot">●</span></span></div>
+<div class="big-num">05</div>
+<div class="sub-label">Kapitel 4 · Abschnitt</div>
+<div class="big-title">Bernoulli-Prinzip und Risikonutzen.</div>
+<p class="sub" style="position:absolute; left:96px; right:220px; bottom:260px; color:rgba(244,239,230,0.74);">Das Bernoulli-Prinzip berücksichtigt die subjektive Einstellung des Entscheidenden zum Risiko. Nicht nur Ergebnisse zählen, sondern der Nutzen, den ein Investor diesen Ergebnissen zuordnet.</p>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>20 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="21 Nutzen statt bloßer Ergebniswerte." data-slide-index="21" data-slide-label="21 Nutzen statt bloßer Ergebniswerte." data-slide-total="28" id="kapitel-4-slide-21">
+<div class="chrome-top"><span>Bernoulli-Prinzip</span><span>21</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Bernoulli-Prinzip</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Nutzen statt bloßer Ergebniswerte.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<div class="two-col mt-40"><div><ul class="clean"><li><span class="marker">01</span><span>Entscheidungsgrundsatz, der die subjektive Einstellung zum Risiko berücksichtigt.</span></li><li><span class="marker">02</span><span>Individuellen Risiko-Nutzenfunktionen U wird jedem Zielwert ein Nutzen zugeordnet.</span></li><li><span class="marker">03</span><span>Risikonutzenfunktion = Abhängigkeit des Risikonutzens vom Erwartungswert des Einkommens und Risiko.</span></li><li><span class="marker">04</span><span>Sie zeigt, welche zusätzlichen Nutzeneinheiten für eine zusätzliche Risikoeinheit erforderlich sind.</span></li></ul></div><div class="card"><div class="card-eyebrow">Beispiel im Skript</div><div class="card-title">Sichere Anlage wird bevorzugt.</div><p class="card-body">Mit u(z) = ln(z), z in Tsd. €:</p><div class="formula-box">E[u(Z₁)] = 1 · ln(110) = 4,70<br>E[u(Z₂)] = 0,5 · ln(140) + 0,5 · ln(80) = 4,66</div><p class="card-body mt-24">Ergebnis: Die sichere Anlage wird der spekulativen Anlage vorgezogen: a₁ &gt; a₂.</p></div></div>
+      <div class="two-col mt-40"><div class="callout"><span class="tag">Sichere Anlage a₁</span>Ausgangspunkt 100.000 €, sichere Anlage führt zu 110.000 € mit p = 1.</div><div class="callout"><span class="tag">Spekulative Anlage a₂</span>Möglich sind 140.000 € mit p = 0,5 oder 80.000 € mit 1 − p = 0,5.</div></div><div class="label" style="margin-top:22px;">Quelle im Skript: Folien 154–155.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>21 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="22 Wie Risikoverhalten formal beschrieben wird." data-slide-index="22" data-slide-label="22 Wie Risikoverhalten formal beschrieben wird." data-slide-total="28" id="kapitel-4-slide-22">
+<div class="chrome-top"><span>Erwartungsnutzen, Sicherheitsäquivalent, Risikoprämie</span><span>22</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Erwartungsnutzen, Sicherheitsäquivalent, Risikoprämie</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Wie Risikoverhalten formal beschrieben wird.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<div class="three-col mt-40"><div class="card"><div class="card-eyebrow">Erwartungsnutzen</div><div class="card-title">Nutzen risikobehafteter Ergebnisse.</div><p class="card-body">Erwarteter Nutzen einer Handlung mit risikobehafteten Ergebnissen.</p></div><div class="card"><div class="card-eyebrow">Sicherheitsäquivalent</div><div class="card-title">Sicheres Ergebnis mit gleichem Nutzen.</div><p class="card-body">Fiktives sicheres Ergebnis mit demselben Nutzen wie eine Handlung mit risikobehafteten Ergebnissen.</p></div><div class="card"><div class="card-eyebrow">Risikoprämie</div><div class="card-title">Abschlag für Indifferenz.</div><p class="card-body">Unterschied zwischen erwartetem Ergebnis und Sicherheitsäquivalent.</p></div></div>
+      <div class="callout mt-40"><span class="tag">Im Skript unklar</span>Die mathematische Notation auf Folie 156 ist in der Textextraktion beschädigt. Inhaltlich eindeutig: Risikoprämie = Erwartungswert minus Sicherheitsäquivalent.</div>
+      <div class="two-col mt-40"><div class="formula-box">Beispiel:<br>50 % → 100 €<br>50 % → 0 €<br>Sicherheitsäquivalent s = 40 €<br>Erwartungswert = 50 €<br>Risikoprämie π = 50 − 40 = 10 €</div><div><table class="grid-tbl"><thead><tr><th>Risikoprämie</th><th>Risikoverhalten</th></tr></thead><tbody><tr><td class="k">π &gt; 0</td><td>risikoscheu</td></tr><tr><td class="k">π = 0</td><td>risikoneutral</td></tr><tr><td class="k">π &lt; 0</td><td>risikofreudig</td></tr></tbody></table></div></div><div class="label" style="margin-top:22px;">Quelle im Skript: Folien 156–157.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>22 / 28</span></div>
+</section>
+
+<section class="slide-divider module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="23 Expected Utility und Risikoaversion." data-slide-index="23" data-slide-label="23 Expected Utility und Risikoaversion." data-slide-total="28" id="kapitel-4-slide-23">
+<div class="chrome-top"><span>Teil 06</span><span>23 <span class="dot">●</span></span></div>
+<div class="big-num">06</div>
+<div class="sub-label">Kapitel 4 · Abschnitt</div>
+<div class="big-title">Expected Utility und Risikoaversion.</div>
+<p class="sub" style="position:absolute; left:96px; right:220px; bottom:260px; color:rgba(244,239,230,0.74);">Das EU-Modell ist das Standardmodell der Konsumentenentscheidung unter Risiko. Menschen wägen Nutzen oberhalb und Unnutzen unterhalb ihrer Nutzenfunktion gegeneinander ab.</p>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>23 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="24 Wegen abnehmendem Grenznutzen wiegt die Unterseite mehr." data-slide-index="24" data-slide-label="24 Wegen abnehmendem Grenznutzen wiegt die Unterseite mehr." data-slide-total="28" id="kapitel-4-slide-24">
+<div class="chrome-top"><span>Expected Utility-Modell</span><span>24</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Expected Utility-Modell</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Wegen abnehmendem Grenznutzen wiegt die Unterseite mehr.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<div class="two-col mt-40"><div><ul class="clean"><li><span class="marker">01</span><span>Das Standardmodell der Konsumentenentscheidung unter Risiko basiert auf der Theorie des erwarteten Nutzens.</span></li><li><span class="marker">02</span><span>Menschen entscheiden, ob sie ein Risiko eingehen, indem sie Nutzen oberhalb mit Unnutzen unterhalb der Nutzenfunktion abwägen.</span></li><li><span class="marker">03</span><span>Wegen des abnehmenden Grenznutzens wiegt die Unterseite mehr.</span></li></ul></div><div class="card"><div class="card-eyebrow">Risikoaversion</div><div class="card-title">Menschen sind risikoavers.</div><ul class="clean"><li><span class="marker">→</span><span>Sie bezahlen dafür, Risiko zu vermeiden, z. B. Versicherung.</span></li><li><span class="marker">→</span><span>Sie verlangen einen Ausgleich, wenn sie Risiko übernehmen sollen.</span></li><li><span class="marker">→</span><span>Sie akzeptieren nicht automatisch jede Wette mit positivem Erwartungswert.</span></li></ul></div></div><div class="label" style="margin-top:22px;">Quelle im Skript: Folien 158–159.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>24 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="25 Positive Erwartungswerte werden nicht automatisch akzeptiert." data-slide-index="25" data-slide-label="25 Positive Erwartungswerte werden nicht automatisch akzeptiert." data-slide-total="28" id="kapitel-4-slide-25">
+<div class="chrome-top"><span>Beispiele zur Risikoaversion</span><span>25</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Beispiele zur Risikoaversion</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Positive Erwartungswerte werden nicht automatisch akzeptiert.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<div class="two-col mt-40"><div class="card"><div class="card-eyebrow">Wette 1</div><div class="card-title">Münzwurf: −100 € oder +120 €.</div><ul class="clean"><li><span class="marker">K</span><span>Kopf: Sie zahlen mir 100 €.</span></li><li><span class="marker">Z</span><span>Zahl: Ich zahle Ihnen 120 €.</span></li></ul><div class="callout mt-24"><span class="tag">Frage</span>Wie hoch ist der Erwartungswert? Würden Sie die Wette akzeptieren?</div><div class="callout mt-24"><span class="tag">Inhaltstreue</span>Das Skript gibt Antwortoptionen und Akzeptanzfrage an; eine ausformulierte Lösung steht auf dieser Folie nicht.</div></div><div class="card"><div class="card-eyebrow">Wette 2</div><div class="card-title">Sie erhalten 10.000 € und bekommen eine neue Wette.</div><ul class="clean"><li><span class="marker">K</span><span>Kopf: Sie geben mir die 10.000 € zurück.</span></li><li><span class="marker">Z</span><span>Zahl: Ich gebe Ihnen 20.000 €.</span></li></ul><div class="callout mt-24"><span class="tag">Frage</span>Würden Sie diese Wette akzeptieren?</div><div class="callout mt-24"><span class="tag">Didaktische Funktion</span>Die Beispiele zeigen, dass Entscheidung unter Risiko nicht allein durch Erwartungswert erklärbar ist.</div></div></div><div class="label" style="margin-top:22px;">Quelle im Skript: Folien 160–161.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>25 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="26 Entscheide dich für die Alternative mit dem höchsten Erwartungsnutzen." data-slide-index="26" data-slide-label="26 Entscheide dich für die Alternative mit dem höchsten Erwartungsnutzen." data-slide-total="28" id="kapitel-4-slide-26">
+<div class="chrome-top"><span>Erwartungsnutzenhypothese</span><span>26</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Erwartungsnutzenhypothese</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Entscheide dich für die Alternative mit dem höchsten Erwartungsnutzen.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<div class="two-col mt-40"><div><ul class="clean"><li><span class="marker">01</span><span>„Erfinder“ laut Skript: John von Neumann und Oskar Morgenstern.</span></li><li><span class="marker">02</span><span>Entscheidungsregel: Entscheidung für die Alternative mit dem höchsten Erwartungsnutzen.</span></li><li><span class="marker">03</span><span>Maximiere den Erwartungsnutzen.</span></li></ul><div class="callout mt-24"><span class="tag">Im Skript unklar</span>Die Formel auf Folie 162 ist in der PDF-Textextraktion beschädigt. Fachlich eindeutig ist die Erwartungsnutzenregel: Summe aus Wahrscheinlichkeit mal Nutzen der jeweiligen Auszahlung maximieren.</div></div><div class="card"><div class="card-eyebrow">Zwei Umweltzustände</div><div class="card-title">Notation in lesbarer Form.</div><ul class="clean"><li><span class="marker">u(.)</span><span>Nutzenfunktion.</span></li><li><span class="marker">x₁, x₂</span><span>Zwei mögliche Auszahlungen.</span></li><li><span class="marker">p₁, p₂</span><span>Wahrscheinlichkeiten der zwei Zustände.</span></li><li><span class="marker">μ</span><span>Erwartungswert: μ = p₁x₁ + p₂x₂.</span></li></ul><div class="formula-box mt-24">E[u(X)] = p₁ · u(x₁) + p₂ · u(x₂)<br><br>s = u⁻¹[p₁ · u(x₁) + p₂ · u(x₂)]<br><br>π = μ − u⁻¹[p₁ · u(x₁) + p₂ · u(x₂)]</div></div></div><div class="label" style="margin-top:22px;">Quelle im Skript: Folien 162–163.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>26 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="27 Risikoaversion, Risikoneutralität und Risikofreude." data-slide-index="27" data-slide-label="27 Risikoaversion, Risikoneutralität und Risikofreude." data-slide-total="28" id="kapitel-4-slide-27">
+<div class="chrome-top"><span>Risikotypen</span><span>27</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Risikotypen</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Risikoaversion, Risikoneutralität und Risikofreude.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<table class="grid-tbl"><thead><tr><th>Risikoverhalten</th><th>Verhältnis Erwartungswert zu Sicherheitsäquivalent</th><th>Risikoprämie</th><th>Interpretation</th></tr></thead><tbody><tr><td class="k">Risikoaversion</td><td>Erwartungswert &gt; Sicherheitsäquivalent s</td><td>π &gt; 0</td><td>Der Entscheider verlangt Kompensation für Risiko.</td></tr><tr><td class="k">Risikoneutralität</td><td>Erwartungswert = Sicherheitsäquivalent s</td><td>π = 0</td><td>Sicheres Äquivalent entspricht dem Erwartungswert.</td></tr><tr><td class="k">Risikofreude</td><td>Erwartungswert &lt; Sicherheitsäquivalent s</td><td>π &lt; 0</td><td>Risiko wird relativ positiv bewertet.</td></tr></tbody></table><div class="label" style="margin-top:22px;">Quelle im Skript: Folie 164.</div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>27 / 28</span></div>
+</section>
+
+<section class="module-slide" data-chapter-key="kapitel-4" data-chapter-short="Kapitel 4" data-chapter-title="Kapitel 4 · Entscheidungen unter Unsicherheit" data-module="behavioral-finance" data-screen-label="28 Klausuranker zu Kapitel 4." data-slide-index="28" data-slide-label="28 Klausuranker zu Kapitel 4." data-slide-total="28" id="kapitel-4-slide-28">
+<div class="chrome-top"><span>Verdichtung</span><span>28</span></div>
+<div class="content-head" style="top:124px;">
+<div class="eyebrow">Verdichtung</div>
+<h2 class="title-md" style="margin-top:18px; max-width:1600px;">Klausuranker zu Kapitel 4.</h2>
+</div>
+<div class="content-body" style="top:330px; bottom:116px; overflow:auto; padding-right:18px;">
+<div class="two-col mt-40"><div class="callout"><span class="tag">01 · Erwartungsstrukturen</span>Sicherheit: Zustand bekannt. Ungewissheit: Zustände bekannt, Wahrscheinlichkeiten unbekannt. Risiko i.e.S.: Zustände und Wahrscheinlichkeiten bekannt.</div><div class="callout"><span class="tag">02 · Unsicherheit</span>Risiko i.w.S. beruht auf Unsicherheit über künftige Konsequenzen und Inflexibilität von Entscheidungen.</div><div class="callout"><span class="tag">03 · Ergebnismatrix</span>xᵢⱼ bezeichnet die Konsequenz der Alternative aᵢ beim Eintritt des Zustands zⱼ.</div><div class="callout"><span class="tag">04 · Regeln ohne Wahrscheinlichkeiten</span>Maximax = optimistisch, Maximin = pessimistisch, Hurwicz = Kompromiss, Laplace = Gleichgewichtung, Krelle = Transformation, Savage-Niehans = maximalen Schaden minimieren.</div><div class="callout"><span class="tag">05 · Erwartungswert</span>μ = Σ Ergebnis · Wahrscheinlichkeit. Er enthält Höhe und Wahrscheinlichkeit, aber keine Streuung.</div><div class="callout"><span class="tag">06 · Standardabweichung</span>Risiko wird als Streuung möglicher Renditen um den Erwartungswert verstanden.</div><div class="callout"><span class="tag">07 · Kritik Bayes-Regel</span>Sie ist einfach und bei häufigen Entscheidungen sinnvoll, passt aber nur für risikoneutrale Entscheider, weil Streuung ignoriert wird.</div><div class="callout"><span class="tag">08 · μ-σ-Regel</span>Bei Risikoaversion ist bei gleichem μ die niedrigere σ vorzuziehen.</div><div class="callout"><span class="tag">09 · Bernoulli / Erwartungsnutzen</span>Subjektiver Nutzen ersetzt reine Ergebniswerte. Entscheidend ist der erwartete Nutzen, nicht nur der erwartete Geldbetrag.</div><div class="callout"><span class="tag">10 · Risikoprämie</span>Risikoprämie = Erwartungswert − Sicherheitsäquivalent. π &gt; 0 = risikoscheu, π = 0 = risikoneutral, π &lt; 0 = risikofreudig.</div></div>
+</div>
+<div class="chrome-bot"><span>Kapitel 4 · Entscheidungen unter Unsicherheit</span><span>28 / 28</span></div>
+</section>
+
+<!-- MODULE_CHAPTER_END: kapitel-4 -->
