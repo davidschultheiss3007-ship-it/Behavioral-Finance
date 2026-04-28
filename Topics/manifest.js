@@ -21,5 +21,5 @@ window.BEHAVIORAL_FINANCE_TOPICS = [
     title: "Kapitel 4 · Entscheidungen unter Unsicherheit",
     file: "topics/kapitel-4-entscheidungen-unter-unsicherheit.html",
     description: "Erwartungsstrukturen, Ergebnismatrix, Entscheidungsregeln, Risiko, Erwartungswert, Streuung und Erwartungsnutzen."
-  },
+  }
 ];
