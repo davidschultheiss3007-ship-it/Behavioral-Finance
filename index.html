@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Behavioral Finance · Modulares Moduldeck</title>
+    <meta name="description" content="Behavioral-Finance-Lernpräsentation mit modular angebundenen HTML-Topics." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/deck.css" />
+</head>
+<body>
+
+    <div class="deck-ui" aria-label="Behavioral Finance Navigation">
+        <div class="deck-tabs"><button type="button" data-goto="behavioral-finance-overview">Übersicht</button></div>
+        <div class="deck-actions">
+            <button type="button" data-deck-prev aria-label="Vorherige Slide">←</button>
+            <select id="deck-slide-select" aria-label="Slide auswählen"></select>
+            <span class="deck-counter">1 / 1</span>
+            <button type="button" data-deck-next aria-label="Nächste Slide">→</button>
+            <button type="button" data-search-open title="Suche öffnen: Strg/Cmd+K">Suche</button>
+        </div>
+        <div class="deck-progress"><span></span></div>
+    </div>
+
+    <div class="deck-hint">Klick links = zurück · Klick rechts = weiter · Strg/Cmd+K = Suche</div>
+
+    <div class="deck-search" aria-hidden="true">
+        <div class="deck-search-panel" role="dialog" aria-label="Slide-Suche">
+            <input id="deck-search-input" type="search" placeholder="Slides durchsuchen …  (Esc schließt)" autocomplete="off" />
+            <div class="deck-search-list"></div>
+        </div>
+    </div>
+
+    <deck-stage>
+        <!-- MODULE_OVERVIEW_START -->
+<section class="slide-title module-slide module-overview is-active" data-chapter-key="module-overview" data-chapter-short="Übersicht" data-chapter-start="true" data-chapter-title="Modulübersicht" data-module="behavioral-finance" data-slide-index="1" data-slide-label="00 Modulübersicht" data-slide-total="1" id="behavioral-finance-overview">
+<div class="chrome-top"><span>HBW · Behavioral Finance</span><span>Moduldeck <span class="dot">●</span></span></div>
+<div class="big-mark">BF</div>
+<div class="stack" style="top:150px;">
+<div class="eyebrow">Konsolidierte Lernpräsentation</div>
+<h1 class="display" style="margin-top:24px;">Behavioral<br/><em style="font-style:italic; color:var(--accent);">Finance.</em></h1>
+<p class="sub" style="margin-top:26px; max-width:1180px;">Kapitel 2–4 als eine erweiterbare HTML-Moduldatei mit Navigation, Slide-Steuerung und Codex-kompatiblen Erweiterungsmarkern.</p>
+<div class="overview-grid" style="margin-top:42px;">
+<button class="overview-card" data-goto="kapitel-2-slide-01" type="button">
+<span class="overview-kicker">Kapitel 2</span>
+<span class="overview-title">Das Modell der zwei Systeme nach Kahneman</span>
+<span class="overview-sub">System 1 und System 2, mentale Anstrengung, kognitive Leichtigkeit und Konflikte der Systeme.</span>
+<span class="overview-count">18 Slides</span>
+</button><button class="overview-card" data-goto="kapitel-3-slide-01" type="button">
+<span class="overview-kicker">Kapitel 3</span>
+<span class="overview-title">Heuristiken und kognitive Verzerrungen</span>
+<span class="overview-sub">Wahrnehmungsgrenzen, Heuristiken, Biases, Framing, Mental Accounting, Anchoring und relative Vergleiche.</span>
+<span class="overview-count">46 Slides</span>
+</button><button class="overview-card" data-goto="kapitel-4-slide-01" type="button">
+<span class="overview-kicker">Kapitel 4</span>
+<span class="overview-title">Entscheidungen unter Unsicherheit</span>
+<span class="overview-sub">Erwartungsstrukturen, Ergebnismatrix, Entscheidungsregeln, Risiko, Erwartungswert, Streuung und Erwartungsnutzen.</span>
+<span class="overview-count">28 Slides</span>
+</button>
+</div>
+</div>
+<div class="chrome-bot"><span>92 Topic-Slides · 1 Modulübersicht</span><span>Erweiterbar im Repo</span></div>
+</section>
+<!-- MODULE_OVERVIEW_END -->
+
+        <!-- MODULE_TOPICS_ARE_LOADED_FROM: topics/manifest.js -->
+
+        <!-- MODULE_EXTENSION_SLOT
+             Neue Themen werden nicht mehr manuell in diese Datei kopiert.
+             Stattdessen:
+             1. Topic-Fragment in /topics ablegen
+             2. Eintrag in /topics/manifest.js ergänzen
+             3. Fertig: Navigation und Slide-Auswahl bauen sich automatisch neu auf.
+        -->
+    </deck-stage>
+
+    <script src="topics/manifest.js"></script>
+    <script src="assets/js/deck.js"></script>
+</body>
+</html>
