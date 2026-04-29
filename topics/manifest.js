@@ -29,5 +29,13 @@ window.BEHAVIORAL_FINANCE_TOPICS = [
     file: "topics/kapitel-5-zeit-in-der-oekonomie.html",
     module: "behavioral-finance",
     slides: 30
+  },
+  {
+    key: "kapitel-6",
+    title: "Kapitel 6 · Die Prospect Theory und ihre Konsequenzen",
+    shortTitle: "Kapitel 6",
+    file: "topics/kapitel-6-prospect-theory-konsequenzen.html",
+    module: "behavioral-finance",
+    slides: 43
   }
 ];
