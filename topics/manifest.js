@@ -22,4 +22,12 @@ window.BEHAVIORAL_FINANCE_TOPICS = [
     file: "topics/kapitel-4-entscheidungen-unter-unsicherheit.html",
     description: "Erwartungsstrukturen, Ergebnismatrix, Entscheidungsregeln, Risiko, Erwartungswert, Streuung und Erwartungsnutzen."
   },
+    {
+    key: "kapitel-5",
+    title: "Kapitel 5 · Zeit in der Ökonomie",
+    shortTitle: "Kapitel 5",
+    file: "topics/kapitel-5-zeit-in-der-oekonomie.html",
+    module: "behavioral-finance",
+    slides: 30
+  }
 ];
